@@ -37,7 +37,7 @@ export default function InquiryForm() {
             className="w-full p-3 rounded bg-gray-900 text-white border border-gray-600 focus:outline-accent"
           />
           <input
-            name="email"
+            name="reply_to"
             type="email"
             required
             placeholder="Your Email"

@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="bg-primary text-white py-6 shadow-lg">
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
-        <h1 className="text-3xl font-nabla text-4xl tracking-wide text-accent">
+        <h1 className="font-nabla text-4xl tracking-wide text-accent">
           Super Coders
         </h1>
         <nav className="space-x-6">
