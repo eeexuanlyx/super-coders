@@ -7,15 +7,15 @@ export default function Services() {
           {[
             {
               title: "Web Development",
-              desc: "High-performance web apps using modern stacks.",
+              desc: "High-performance websites and portals using modern stacks.",
             },
             {
               title: "UI/UX Design",
               desc: "Stunning, user-centric interfaces with clarity.",
             },
             {
-              title: "Cloud Solutions",
-              desc: "Deploy, scale, and optimize on the cloud.",
+              title: "Custom Applications",
+              desc: "Custom platforms and solutions tailored to your unique needs.",
             },
           ].map((service) => (
             <div

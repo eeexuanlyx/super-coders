@@ -24,7 +24,7 @@ export default function InquiryForm() {
   };
 
   return (
-    <section id="inquiry" className="bg-sky-800 text-white py-16 px-6">
+    <section id="inquiry" className="bg-sky-900 text-white py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-orbitron text-neon mb-6 text-center">
           Send an Enquiry
@@ -34,21 +34,21 @@ export default function InquiryForm() {
             name="from_name"
             required
             placeholder="Your Name"
-            className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600 focus:outline-accent"
+            className="w-full p-3 rounded bg-gray-900 text-white border border-gray-600 focus:outline-accent"
           />
           <input
             name="email"
             type="email"
             required
             placeholder="Your Email"
-            className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600"
+            className="w-full p-3 rounded bg-gray-900 text-white border border-gray-600"
           />
           <textarea
             name="message"
             required
             placeholder="Your Message"
             rows="5"
-            className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600"
+            className="w-full p-3 rounded bg-gray-900 text-white border border-gray-600"
           />
           <div className="flex justify-center">
             <div className="relative group">
@@ -57,7 +57,7 @@ export default function InquiryForm() {
                 className="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
               >
                 <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                <span className="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
+                <span className="relative z-10 block px-6 py-3 rounded-xl bg-gray-900">
                   <div className="relative z-10 flex items-center space-x-2">
                     <span className="transition-all duration-500 group-hover:translate-x-1">
                       Enquire now!

@@ -5,7 +5,7 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <main className="font-inter bg-cyan-700 text-white">
+    <main className="font-inter bg-blue-950 text-white">
       <Header />
       <Services />
       <Contact />
